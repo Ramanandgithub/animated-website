@@ -9,15 +9,16 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="aos.css">
 </head>
 <body>
 	<header>
 		<div class="toplogo">
-			<div class="logo_pic">
+			<div class="logo_pic" data-aos="zoom-in" data-aos-duration="1200">
 				<img src="logo.svg" alt="" class="picture">
 			</div>
-			<div class="first_btn">
-				<button class="btn">Buy Now</button>
+			<div class="first_btn" data-aos="fade-down">
+				<button class="btn" data-aos-duration="1500">Buy Now</button>
 			</div>
 		</div>
 		
@@ -28,23 +29,23 @@
 	<div class="top-head1">
 		<div style="" class="top-head">
 			<div class="social_media">
-				<div>
+				<div data-aos="fade-down">
 					<i class="fa-brands fa-facebook"></i>
 				</div>
 				
-				<div>
+				<div data-aos="fade-down">
 					<i class="fa-brands fa-twitter"></i>
 				</div>
 				
-				<div>
+				<div data-aos="fade-down">
 					<i class="fa-brands fa-instagram"></i>
 				</div>
-				<div>
+				<div data-aos="fade-down">
 					<i class="fa-brands fa-linkedin"></i>
 				</div>
 			</div>
 			
-			<div class="social_time">
+			<div class="social_time" data-aos="fade-right">
 				<div>
 					<i class="fa-regular fa-clock"></i><span>Mon - Sat : 09.00-17.00</span>
 				</div>
@@ -78,7 +79,7 @@
 			second navbar code start here 
 
 
-	    --> <div class="second_navbar">
+	    --> <div class="second_navbar" data-aos="zoom-out" data-aos-duration="1800">
 			   <div class="second_navbar1" >
 							<div>
 								<img src="img2.png" alt="" class="img2" width="160px" height="36px">
@@ -98,16 +99,16 @@
 			    </div>
 			</div>
 			
-			<div class="heading">
+			<div class="heading" data-aos="fade-right" data-aos-delay="500">
 				<h1>Find Your Next Best Friend At The Animal Shelter</h1>
 			</div>
 			
-			<div>
+			<div data-aos="fade-left" data-aos-delay="700">
 				<p class="pera">Consequat tempus metus nulla convallis ipsum curae sagittis aenean enim. Blandit ligula nostra dolor elit lacinia.</p>
 				
 			</div>
 			
-			<div class="down_pera">
+			<div class="down_pera" data-aos="flip-up" data-aos-delay="750">
 				<button class="get_btn">Get Started <i class="fa-solid fa-angle-right"></i></button>
 			</div>
 			
@@ -120,7 +121,7 @@
 
 			-->
 			
-			<div class="rescue_animal">
+			<div class="rescue_animal" data-aos="zoom-in-up">
 				<div class="rescue_animal1">
 					<div>
 						<div>
@@ -159,6 +160,79 @@
 			
 			
 	</div>
+	
+	
+	
+	<div class="FURRESCUE">
+		<div class="FURRESCUE1">
+			<div>
+				<p>ABOUT FURRESCUE</p>
+			
+			</div>
+			<div>
+				<h1>ABOUT FURRESCUE We're the Most Trusted Animal Rescue in Town</h1>
+			</div>
+			
+			<div>
+				<p>All they need is a better home and better care, and all you need is unconditional love from them.</p>
+			</div>
+			<div>
+				<p>Platea dapibus dignissim tellus pulvinar dictumst netus metus ad eleifend hendrerit velit. Volutpat sociosqu congue lectus ad dignissim felis montes venenatis morbi aenean. Porttitor molestie volutpat primis nec urna. Quis quam fringilla senectus mi donec leo dictum auctor sit dui</p>
+			</div>
+			
+			<div>
+				<div>
+					<button>Discover More</button>
+				</div>
+				<div>
+					<i class="fa-solid fa-circle-play"></i>
+				</div>
+				<div>
+					<a href="">Watch Now</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div>
+			<div>
+				<img src="img3cat.jpeg" alt="" width="500px" height="450px">
+			</div>
+			<div>
+				<img src="catdog.jpeg" alt="" width="250px" height="250px">
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<script src="aos.js"></script>
+	<script>
+		AOS.init({
+		  // Global settings:
+		  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+		  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+		  initClassName: 'aos-init', // class applied after initialization
+		  animatedClassName: 'aos-animate', // class applied on animation
+		  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+		  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+		  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+		  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+		  
+
+		  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+		  offset: 120, // offset (in px) from the original trigger point
+		  delay: 0, // values from 0 to 3000, with step 50ms
+		  duration: 400, // values from 0 to 3000, with step 50ms
+		  easing: 'ease', // default easing for AOS animations
+		  once: false, // whether animation should happen only once - while scrolling down
+		  mirror: false, // whether elements should animate out while scrolling past them
+		  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+		});
+	</script>
 	
 	
 	
