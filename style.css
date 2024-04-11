@@ -1,0 +1,178 @@
+
+
+*{
+	margin-top:0px;
+}
+
+.toplogo{
+	background-color: black;
+	width:100vw;
+	display:flex;
+	justify-content:space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body{
+	
+	overflow-x:hidden;
+}
+.picture{
+	width:118px;
+	height:18px;
+	
+}
+.logo_pic{
+	margin-left: 10px;
+}
+.first_btn{
+	margin-right: 10px;
+	
+}
+.anchor{
+	text-decoration:none;
+	color:black;
+}
+.btn{
+	background-color:#6f9a37;
+	color:#fff;
+	box-shadow: 0 2px 0 #6f9a37;
+	padding: 8px 7px 8px 7px;
+	margin-right:20px;
+	border:none;
+	box-shadow:8px 8px 3px black;
+}
+
+.top-head1{
+	/* background-image: url("img1.jpeg"); */
+	background:rgba(0,0,0,0.4)url("img1.jpeg");
+	background-blend-mode:darken;
+	width:100vw;
+	justify-content:center;
+	background-repeat:no-repeat;
+	/* filter: brightness(50%); */
+	/* opacity:0.2; */
+
+}
+.top-head{
+	
+	
+	width:100vw;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.social_media{
+	display:flex;
+	margin-top:10px;
+	width:20vw;
+	justify-content:space-between;
+}
+.social_time{
+	display:flex;
+	margin-top:10px;
+	gap:20px;
+}
+.second_navbar{
+	width:100vw;
+	justify-content:center;
+}
+.second_navbar1{
+	padding: 10px 0px 10px 0px;
+	width:98vw;
+	background-color:#fff;
+	display:flex;
+	justify-content:space-between;
+	height:fit-content;
+	align-items:center;
+	top:0;
+	box-shadow: 4px 8px 10px;
+	border-radius:10px;
+}
+.unorder{
+	display:flex;
+	list-style:none;
+	align-items:center;
+	gap:20px;
+	font-size: 20px;
+	font-family: "Playfair Display", serif;
+}
+.denote_btn{
+	background-color:#FAB74C;
+	padding:10px 15px 10px 15px;
+	border:none;
+	margin-right:5px;
+	border-radius:6px;
+	font-weight:bold;
+	
+  font-family: "Rubik", sans-serif;
+	
+	
+}
+.heading{
+	width:535px;
+	height:235px;
+	color:#fff;
+	margin-top: 100px;
+	font-size: 30px;
+	padding: 0px 40px;
+	font-family: "Poppins", sans-serif;
+}
+.pera{
+	width:535px;
+	height:80px;
+	
+	color:#fff;
+	font-size:20px;
+	padding: 0px 40px;
+	font-family: "Anek Tamil", sans-serif;
+	
+}
+.down_pera{
+	padding: 0px 40px;
+	height:20vh;
+	
+}
+.get_btn{
+	background-color:#FAB74C;
+	padding:10px 19px 10px 19px;
+	border:none;
+	box-shadow: 5px 5px 2px;
+	font-weight:bold;
+	cursor:pointer;
+	
+	
+}
+.get_btn:hover{
+	background-color:#FA7070;
+	transition: 1s linear ease;
+}
+.rescue_animal{
+	width:100vw;
+	Display:flex;
+	
+	justify-content:center;
+	gap:1px;
+	
+	padding:12px 0px 12px 0px;
+	
+	/* background-color:#fff; */
+	
+}
+.rescue_animal1{
+		width:90vw;
+		background-color:#fff;
+		display:flex;
+		border-radius:10px;
+		padding:12px 8px 12px 8px;
+		
+		
+		
+}
+.rescue-pic{
+	border-radius:50%;
+	background:transparent;
+}
+
+
+
+
