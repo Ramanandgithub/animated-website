@@ -184,6 +184,58 @@ body{
 .FURRESCUE1{
 	padding: 0px 20px;
 }
+.about-pera{
+	color:#5A77C1;
+	font-family: "Dancing Script", cursive;
+}
+.about-heading{
+	font-family: "EB Garamond", serif;
+}
+.dog-home{
+	font-family: "Bad Script", cursive;
+}
+.platea{
+	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.discover{
+	display:flex;
+	width:100%;
+	justify-content:space-evenly;
+}
+.alonecat:hover{
+	scale:1.02;
+	transition: all;
+	transition-duration:1s;
+	
+}
+.top-catdog{
+	width:259px;
+	height:259px;
+	border: 3px;
+	
+}
+.catdog{
+	border-radius:50%;
+	position:relative;
+	top:0;
+	
+	
+}
+.media{
+	font-size:35px;
+	color:#36D5AD;
+}.media:hover{
+	
+	color:#5A77C1;
+	transition:all;
+	transition-duration:1s;
+	transition-timing-function:linear;
+}
+.Now{
+	font-weight:bold;
+}
 
 
 
