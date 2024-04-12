@@ -247,6 +247,18 @@ body{
 .Now{
 	font-weight:bold;
 }
-
+.img_container{
+	margin-top:70px;
+	width:100vw;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.audio_video{
+	width:100vw;
+	height:50vh;
+	background:rgba(0,0,0,0.4)url("img10.jpeg");
+	background-blend-mode:darken;
+}
 
 
