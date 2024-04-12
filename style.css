@@ -211,17 +211,28 @@ body{
 	
 }
 .top-catdog{
-	width:259px;
-	height:259px;
-	border: 3px;
+	
+	border: 3px #fff;
+	
 	
 }
 .catdog{
 	border-radius:50%;
-	position:relative;
-	top:0;
+	margin-bottom:0;
+	margin-top:280px;
+	margin-left:-10px;
+	-webkit-animation: spin 5s alternate;
+	animation: spin 5s alternate;
 	
-	
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  30% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  30% { transform: rotate(360deg); }
 }
 .media{
 	font-size:35px;
