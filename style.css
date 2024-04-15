@@ -261,6 +261,7 @@ body{
 	height:100vh;
 	background:rgba(0,0,0,0.4)url("img10.jpeg");
 	background-blend-mode:darken;
+	background-repeat:no-repeat;
 }
 .sucess{
 	color:yellow;
