@@ -215,6 +215,7 @@ body{
 	border: 3px #fff;
 	
 	
+	
 }
 .catdog{
 	border-radius:50%;
@@ -223,6 +224,7 @@ body{
 	margin-left:-10px;
 	-webkit-animation: spin 5s alternate;
 	animation: spin 5s alternate;
+	object-fit: fill;
 	
 }
 @-webkit-keyframes spin {
@@ -256,9 +258,102 @@ body{
 }
 .audio_video{
 	width:100vw;
-	height:50vh;
+	height:100vh;
 	background:rgba(0,0,0,0.4)url("img10.jpeg");
 	background-blend-mode:darken;
 }
+.sucess{
+	color:yellow;
+	font-family: "Roboto Slab", serif;
+	font-style: italic;
+	
+}
+.audio_video1{
+	display:flex;
+}
+.img_container2{
+	
+	width:100%;
+	height:100vh;
+	
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+	
+}
+#play_button{
+	width:100px;
+	height:100px;
+	color:pink;
+	border:2px solid red;
+	font-size:30px;
+	display:flex;
+	background-color:#fff;
+	border-radius:50%;
+	justify-content:center;
+	align-items:center;
+	animation: shake 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#play_button:hover{
+	scale:1.02;
+}
+.mediaicon{
+	
+	
+	
+}
+.nec{
+	padding:83px 49px 0px 95px;
+}
+.success{
+	font-style:normal;
+	color:yellow;
+}
+
+.adoption{
+	color:#fff;
+	font-family: "Roboto Slab", serif;
+	font-weight:bold;
+	font-size:3.2rem;
+	
+}
+.magna{
+	color:#fff;
+	font-family: "Roboto Slab", serif;
+	font-style:italic;
+	font-size:1.2rem;
+	
+}
+
+
+.offer{
+	margin-top:40px;
+	text-align:center;
+	font-family: "Jacquard 24", system-ui;
+	color:#5A77C1;
+}
+.offer1{
+	text-align:center;
+	font-family: "Roboto Slab", serif;
+	font-size:30px;
+	
+}
+
 
 
