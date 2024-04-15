@@ -2,6 +2,9 @@
 
 *{
 	margin-top:0px;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 
 .toplogo{
@@ -350,10 +353,75 @@ body{
 	color:#5A77C1;
 }
 .offer1{
+	width:100%;
+	/* background-color:red; */
 	text-align:center;
 	font-family: "Roboto Slab", serif;
-	font-size:30px;
+	font-size:23px;
+	margin-top:20px;
 	
+}
+.offer2{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	/* background-color:yellow; */
+	
+	
+}
+.upper_card{
+	display:grid;
+	grid-column: 1 / 3;
+	grid-template-columns:  auto auto auto;
+	gap:30px;
+	width:100%;
+	/* background-color:red; */
+	justify-content:space-evenly;
+	margin-top:40px;
+}
+
+.card{
+	width:243px;
+	height:293.5px;
+	background-color:#5A77C1;
+	text-align:center;
+	border-radius:10px;
+	padding:1px 12px 0px 12px;
+	margin-left:10px;
+	margin:10px 0px 10px 0px;
+}
+.card:hover{
+	/* background-image: url("bg.png"); */
+	
+	background:rgba(0,0,0,0.6)url("bg.png");
+	background-blend-mode:darken;
+	background-size:cover;
+	
+}
+.card .card_img{
+	/* margin-top:10px; */
+	padding:10px 0px 0px 1px;
+	border-radius:50%;
+}
+.card .card_img .card_inside_img{
+	/* margin-top:10px; */
+	/* padding:10px 0px 0px 1px; */
+	border-radius:50%;
+	object-fit:fill;
+}
+.card .pet{
+	margin-top:10px;
+	margin-bottom:20px;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.3rem;
+}
+.card .id{
+	margin-top:10px;
+	margin-bottom:20px;
+	color:#fff;
+	
+	font-size:1rem;
 }
 
 
